@@ -30,7 +30,7 @@
         <property key="asyncCall" type="boolean" defaultValue="false">
             <caption>Asynchronous call</caption>
             <category>Datasource</category>
-            <description>Must the microflow be executed asynchronous? If yes, only the dataview object can be used for the Result page, because the Return entity is passed to the widget by Mendix.</description>
+            <description>Must the microflow be executed asynchronous? If yes, only the dataview object can be used for the Result page, because the Return entity is not passed to the widget by Mendix.</description>
         </property>
         <property key="returnEntity" type="entity" allowNonPersistableEntities="true" required="false">
             <caption>Return entity</caption>
